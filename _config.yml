@@ -1,18 +1,18 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+title: Cassio Pimentel
+description: 'Cassio Pimentel - Desenvolvedor de Software'
 url: 'http://cassiopimentel.github.io'
 baseurl: '/cassiopimentel.github.io/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Cassio Alves Pimentel'
+  email: cassiowin98@yahoo.com.br
+  twitter_username: 
+  facebook_username: cassio.alvespimentel
+  github_username:  cassiopimentel
+  linkedin_username:  cassioalvespimentel
 
 defaults:
   -
