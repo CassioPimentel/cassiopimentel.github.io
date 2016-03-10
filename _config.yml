@@ -4,7 +4,7 @@ description: 'Cassio Pimentel - Desenvolvedor de Software'
 url: 'http://cassiopimentel.github.io'
 baseurl: '/cassiopimentel.github.io/'
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'cassioalvespimentel'
 
 author:
   name: 'Cassio Alves Pimentel'
