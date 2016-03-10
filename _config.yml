@@ -6,9 +6,6 @@ baseurl: '/cassiopimentel.github.io/'
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'cassioalvespimentel'
 
-page: 
-  title: 'cassio'
-
 author:
   name: 'Cassio Alves Pimentel'
   email: cassiowin98@yahoo.com.br
