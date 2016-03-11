@@ -1,5 +1,3 @@
-<h1 id="web-service-restful-com-nodejs-e-mongodb-parte-1">Web service RESTful com NodeJS e MongoDB - Parte 1</h1>
-
 <p>Bem vindo ao meu primeiro post onde irei mostrar como implementar um web service RESTful com nodejs e mondodb. Este projeto será dividido em duas partes e na parte 1 irei mostrar os conceitos básicos e a instalação de componentes, e na parte 2 o desenvolvimento em si do web service.</p>
 
 
