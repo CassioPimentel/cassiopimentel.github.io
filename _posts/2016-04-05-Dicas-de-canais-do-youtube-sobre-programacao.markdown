@@ -2,7 +2,7 @@
 title: "Dicas de canais do youtube sobre programação"
 date: "2016-04-05"
 description: "Dicas de canais do youtube sobre programação"
-image: "http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg"
+
 ---
   
    ![code](http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg)
