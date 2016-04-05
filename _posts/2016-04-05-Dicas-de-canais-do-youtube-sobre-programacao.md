@@ -19,7 +19,7 @@ image: "http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg"
 
 * Canal do [Tiago Britto](https://www.youtube.com/user/ata275)
 
-	Este canal também é de certa forma focado em tecnologias Microsoft como C#, Xamarin e ASP.NET, mas tambem há videos sobre Java, AngularJs, NodeJs, criptografia etc. .
+	Este canal também é de certa forma focado em tecnologias Microsoft como C#, Xamarin e ASP.NET, mas tambem há videos sobre Java, AngularJs, NodeJs, criptografia etc.
 
 * Canal do [Angelo Belchior](https://www.youtube.com/user/angelobelchior)
 
