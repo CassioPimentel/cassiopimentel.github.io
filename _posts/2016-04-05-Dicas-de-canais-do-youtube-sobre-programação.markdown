@@ -1,4 +1,3 @@
-[<meta property="og:image" content="http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg">]
 
    ![code](http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg)
 
