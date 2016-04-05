@@ -1,8 +1,7 @@
-%meta{ :property => 'og:title', :content => 'Article/Site Title' }
-%meta{ :property => 'og:site_name', :content => 'Site Name' }
-%meta{ :property => 'og:url', :content => 'http://www.example.com' }
-%meta{ :property => 'og:description', :content => 'Site Description' }
-%meta{ :property => 'og:image', :content => 'http://www.example.com/images/og.png' }
+[<meta property="og:image" content="http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="800"> /** PIXELS **/
+<meta property="og:image:height" content="600"> /** PIXELS **/]
 
    ![code](http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg)
 
