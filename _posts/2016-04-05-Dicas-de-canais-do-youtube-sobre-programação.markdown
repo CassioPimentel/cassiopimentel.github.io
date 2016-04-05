@@ -1,4 +1,8 @@
 [meta property="og:type" content="article"]
+[meta property="og:image" content="http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg"]
+[meta property="og:image:type" content="image/jpeg"]
+[meta property="og:image:width" content="800"]
+[meta property="og:image:height" content="600"]
 
    ![code](http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg)
 
