@@ -1,12 +1,5 @@
-Title:    A Sample MultiMarkdown Document  
-Author:   Fletcher T. Penney  
-Date:     February 9, 2011  
-Comment:  This is a comment intended to demonstrate  
-          metadata that spans multiple lines, yet  
-          is treated as a single value.  
-CSS:      http://example.com/standard.css
-  
-  
+[meta-tag:feature-request]
+
    ![code](http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg)
 
   Seja Bem vindo ao meu blog, e neste post irei dar dicas de alguns dos melhores canais do youtube sobre programação, dos quais acompanho todos. A lista dos canais não é focada em nenhuma tecnologia ou linguagem de programação, então vamos a lista.
