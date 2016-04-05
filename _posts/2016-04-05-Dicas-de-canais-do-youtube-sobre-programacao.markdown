@@ -25,11 +25,11 @@ description: "Dicas de canais do youtube sobre programação"
 
 	Ja o Angelo foca totalmente em desenvolvimento cross mobile em Xamarin. E agora que a microsoft [liberou](https://store.xamarin.com/) o Xamarin, este canal será muito importante.
 
-* Canal da [Loiane Groner](https://www.youtube.com/user/angelobelchior)
+* Canal da [Loiane Groner](https://www.youtube.com/user/Loianeg)
 	
 	Um otimo canal para quem deseja aprender Java.
 
-* Canal do Fabio [Vedovelli](https://www.youtube.com/user/angelobelchior)
+* Canal do Fabio [Vedovelli](https://www.youtube.com/user/vedovelli)
 	
 	Este Cara explica muito bem, os videos dele tem uma musica padrão de fundo muito boa, você começa a ver os videos e não para. Os videos dele são sobre Laravel, Vue.Js, Ember.Js, NodeJs.
 
