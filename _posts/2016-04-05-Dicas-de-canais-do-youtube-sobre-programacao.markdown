@@ -35,7 +35,7 @@ description: "Dicas de canais do youtube sobre programação"
 
 * Canal [ASPNETCAST](https://www.youtube.com/channel/UC1DrB2LTgVBGiZdgaOrzMCg/videos) 
 	
-	Este canal é para você que gosta de Podcasts, inclusive o Andre Baltieri é um dos criadores do canal. Lá eles falam principalmente sobre tecnologias .NET alem de dicas de carreiras, desenvolvimento web etc.
+	Este canal é para você que gosta de Podcasts, inclusive o Andre Baltieri é um dos criadores do canal. Lá eles falam principalmente sobre tecnologias .NET alem de dicas de carreiras, desenvolvimento web etc. 
 
 * Canal [Webschool](https://www.youtube.com/channel/UCKdo1RaF8gzfhvkOdZv_ojg/videos) 
 
