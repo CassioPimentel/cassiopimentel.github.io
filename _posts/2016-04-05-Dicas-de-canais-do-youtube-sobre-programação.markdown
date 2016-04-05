@@ -1,7 +1,4 @@
-[<meta property="og:image" content="http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg">
-<meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:width" content="800"> /** PIXELS **/
-<meta property="og:image:height" content="600"> /** PIXELS **/]
+[<meta property="og:image" content="http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg">]
 
    ![code](http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg)
 
