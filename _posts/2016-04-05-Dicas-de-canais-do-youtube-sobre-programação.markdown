@@ -1,4 +1,3 @@
-[meta-tag:feature-request]
 
    ![code](http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg)
 
