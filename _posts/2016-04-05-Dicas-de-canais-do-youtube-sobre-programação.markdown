@@ -1,6 +1,4 @@
-   ![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)
-
-
+   ![code](http://www1.pcmag.com/media/images/485120-learn-to-code.jpg?thumb=y&width=740&height=426)
 
 	Seja Bem vindo ao meu blog, e neste post irei dar dicas de alguns dos melhores canais do youtube sobre programação, dos quais acompanho todos. A lista dos canais não é focada em nenhuma tecnologia ou linguagem de programação, então vamos a lista.
 
