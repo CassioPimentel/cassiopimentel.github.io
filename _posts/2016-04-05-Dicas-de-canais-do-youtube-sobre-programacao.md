@@ -1,7 +1,7 @@
 ---
-title: "Just another sample post"
-date: "2014-03-29"
-description: "This should be a more useful description"
+title: "Dicas de canais do youtube sobre programação"
+date: "2016-04-05"
+description: "Dicas de canais do youtube sobre programação"
 ---
   
    ![code](http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg)
