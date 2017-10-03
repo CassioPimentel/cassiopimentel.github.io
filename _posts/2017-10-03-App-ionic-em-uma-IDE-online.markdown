@@ -8,6 +8,7 @@ description: "App ionic em uma IDE online"
 App ionic em uma IDE online
 ===================
 
+Neste post irei mostrar como executar um App em ionic usando uma IDE totalmente online.
 
 ####  **IDE usada**
 
