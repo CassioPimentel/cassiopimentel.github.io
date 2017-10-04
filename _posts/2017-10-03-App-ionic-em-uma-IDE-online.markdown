@@ -40,6 +40,7 @@ Após a instalação ser concluida iremos criar um projeto ionic de exemplo:
 Com o projeto criado podemos testa-lo. Para usar o ionic no cloud 9 iremos usar alguns parâmetros ao executar o app: 
 
     ionic serve -p $PORT --nolivereload
+    
 > - $PORT:  esta é uma variavel de ambiente do cloud 9, esta porta atualmente é a 8080.
 > - nolivereload: este é um parâmetro do ionic que diz que o app não será automaticamente recarregado quando algo for alterado no código. Esta é uma limitação do cloud 9, mas que não será um grande problema para testes rápidos.
 
