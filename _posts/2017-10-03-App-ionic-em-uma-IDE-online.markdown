@@ -14,7 +14,7 @@ A IDE usada neste post será o  [Cloud 9](https://c9.io/) , que é uma ide total
 
 A cloud 9 ja tem alguns templates prontos, que ajuda muita na configuração dos projetos:
 
-![t](https://github.com/CassioPimentel/cassiopimentel.github.io/blob/master/images/PrtScr%20capture.jpg)
+![](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PrtScr%20capture.jpg)
 
 
 Há também a possibilidade de se criar um workspace a partir de um repositório seu do github, o que é otimo para projetos onde outras pessoas estão trabalhando.
