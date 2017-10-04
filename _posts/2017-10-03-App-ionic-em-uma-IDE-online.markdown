@@ -10,11 +10,11 @@ Neste post irei mostrar como executar um App em ionic usando uma IDE totalmente 
 ####  **IDE usada**
 
 
-A IDE usada neste post será o  [<i class="icon-cloud"></i> Cloud 9](https://c9.io/) , que é uma ide totalmente online, onde se pode criar "Workspaces" gratuitos, que são maquinas virtuais que já vem com 512 de memoria ram e 2G de HD.
+A IDE usada neste post será o  [Cloud 9](https://c9.io/) , que é uma ide totalmente online, onde se pode criar "Workspaces" gratuitos, que são maquinas virtuais que já vem com 512 de memoria ram e 2G de HD.
 
 A cloud 9 ja tem alguns templates prontos, que ajuda muita na configuração dos projetos:
 
-![](https://github.com/CassioPimentel/cassiopimentel.github.io/blob/master/images/PrtScr%20capture.jpg)
+![t](https://github.com/CassioPimentel/cassiopimentel.github.io/blob/master/images/PrtScr%20capture.jpg)
 
 
 Há também a possibilidade de se criar um workspace a partir de um repositório seu do github, o que é otimo para projetos onde outras pessoas estão trabalhando.
