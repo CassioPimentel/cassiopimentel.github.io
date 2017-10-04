@@ -51,6 +51,6 @@ Com o projeto criado podemos testa-lo. Para usar o ionic no cloud 9 iremos usar 
 
 Quando o comando terminar de ser execultado, você deve ir na barra superior da ide, em Preview->Preview Running Application, ira abrir uma aba, que é um navegador embutido dentro do cloud 9.
 
-
+![](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PrtScr%20capture_2.jpg)
 
 Por ser uma ide online, a execução do projeto é um pouco mais demorada, mas nada que atrapalhe. Se quiser, você pode pegar o endereço do projeto e abri-lo em uma nova aba do seu navegador normalmente.
