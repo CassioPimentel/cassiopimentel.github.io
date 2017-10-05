@@ -4,7 +4,6 @@ date: "2017-10-03"
 description: "App ionic em uma IDE online"
 
 ---
-![](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/cloud92.jpg)
 
 Neste post irei mostrar como executar um App em ionic usando uma IDE totalmente online.
 
