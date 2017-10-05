@@ -4,8 +4,6 @@ date: "2016-04-05"
 description: "Dicas de canais do youtube sobre programação"
 
 ---
-  
-   ![code](http://geoawesomeness.com/wp-content/uploads/2014/08/progLanguages.jpg)
 
   Seja Bem vindo ao meu blog, e neste post irei dar dicas de alguns dos melhores canais do youtube sobre programação, dos quais acompanho todos. A lista dos canais não é focada em nenhuma tecnologia ou linguagem de programação, então vamos a lista.
 
