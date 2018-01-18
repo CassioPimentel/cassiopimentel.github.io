@@ -1,7 +1,7 @@
 ---
 title: "WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor"
 date: "2018-01-18"
-description: "Web Api usando ASP.NET CORE com MySQL e coloca-la em produção no [AppHarbor](https://appharbor.com/), que é uma boa alternativa para testar projetos em .NET"
+description: "Web Api usando ASP.NET CORE com MySQL e coloca-la em produção no AppHarbor, que é uma boa alternativa para testar projetos em .NET"
 
 ---
 
