@@ -1,9 +1,4 @@
----
-title: "WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor"
-date: "2018-01-18"
-description: "WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbore"
 
----
 
 **WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor**
 ---------------------------------------------------
