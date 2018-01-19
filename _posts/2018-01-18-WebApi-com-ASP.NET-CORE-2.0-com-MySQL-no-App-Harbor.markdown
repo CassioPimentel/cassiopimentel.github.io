@@ -1,9 +1,16 @@
 ---
-layout: post
-og:title:  How to make your Jekyll site more shareable
-og:description: How to make your Jekyll site more shareable
-date:   '2018-01-18'	
-image: http://41.media.tumblr.com/173cb5c51a1c308ab022a786f69353f3/tumblr_nwncf1T2ht1rl195mo1_1280.jpg
+title: "New Federalist platform lets agencies quickly launch websites"
+date: 2015-09-15
+authors:
+- melody
+tags:
+- our projects
+- platform
+- proactive federal partner
+excerpt: "18F’s new Federalist platform is a suite of tools designed to
+make it faster for government agencies to build websites that are
+secure, responsive, and accessible."
+image: /assets/blog/federalist/sbst-screenshot.jpg
 ---
 
 **WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor**
