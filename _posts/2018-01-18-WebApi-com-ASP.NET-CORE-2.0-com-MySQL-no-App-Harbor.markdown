@@ -5,7 +5,7 @@ categories: blog
 tags: cope microservices api-first dadi
 external-url: https://css-tricks.com/learning-cope-microservices
 external-name: CSS-Tricks
-external-date: 2016-07-22
+external-date: 2018-01-18
 ---
 
 **WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor**
