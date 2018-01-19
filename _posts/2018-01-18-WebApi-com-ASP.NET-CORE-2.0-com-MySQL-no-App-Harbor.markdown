@@ -1,14 +1,16 @@
 ---
 title: "WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor"
 date: "2018-01-18"
-description: "Web Api usando ASP.NET CORE com MySQL e coloca-la em produção no AppHarbor"
+description: "WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbore"
 
 ---
 
-![WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/1516320928f2c5c01f47183f2940df2f707f26a200%20(1).jpg)
+**WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor**
+---------------------------------------------------
 
-Neste post irei mostrar como criar uma Web Api usando ASP.NET CORE e coloca-la em produção no AppHarbor, que é uma boa alternativa para testar projetos em .NET, e numa segunda etapa irei implementar o swagger.
+Neste post irei mostrar como criar uma Web Api usando ASP.NET CORE e coloca-la em produção no [AppHarbor](https://appharbor.com/), que é uma boa alternativa para testar projetos em .NET, e numa segunda etapa irei implementar o swagger.
 
+![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/2318.WithAPIArchitecture.PNG)
 
 **O que será usado:**
 
