@@ -1,3 +1,11 @@
+---
+"layout": "post"
+"title": "By The Way",
+"tags": ["intro", "javascript"],
+"date": "2012-02-07",
+"tagline": "This is my Harp post"
+---
+
 # Welcome to StackEdit!
 
 ![enter image description here](https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg)
