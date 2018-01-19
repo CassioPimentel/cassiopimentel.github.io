@@ -1,4 +1,5 @@
 ---
+layout: post
 title: teste teste
 date: '2018-01-18'
 tagline: This is my Harp post
