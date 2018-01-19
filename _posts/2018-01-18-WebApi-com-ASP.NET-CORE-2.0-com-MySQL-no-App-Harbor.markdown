@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "How to make your Jekyll site more shareable"
-date:   2018-01-18
-categories: jekyll social-media
+og:title:  How to make your Jekyll site more shareable
+og:description: How to make your Jekyll site more shareable
+date:   '2018-01-18'	
 image: http://41.media.tumblr.com/173cb5c51a1c308ab022a786f69353f3/tumblr_nwncf1T2ht1rl195mo1_1280.jpg
-vertical: Code
-excerpt: "Jekyll is pretty cool, here's how to make writing with it easier for others to share on social networks."
 ---
 
 **WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor**
