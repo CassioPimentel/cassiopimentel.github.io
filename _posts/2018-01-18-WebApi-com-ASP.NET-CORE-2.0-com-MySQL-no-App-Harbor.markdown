@@ -10,7 +10,7 @@ tags:
 excerpt: "18F’s new Federalist platform is a suite of tools designed to
 make it faster for government agencies to build websites that are
 secure, responsive, and accessible."
-image: /assets/blog/federalist/sbst-screenshot.jpg
+
 ---
 
 **WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor**
