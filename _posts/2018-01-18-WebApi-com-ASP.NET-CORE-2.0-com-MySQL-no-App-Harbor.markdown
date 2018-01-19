@@ -1,15 +1,7 @@
 ---
-title: "New Federalist platform lets agencies quickly launch websites"
-date: 2015-09-15
-authors:
-- melody
-tags:
-- our projects
-- platform
-- proactive federal partner
-excerpt: "18F’s new Federalist platform is a suite of tools designed to
-make it faster for government agencies to build websites that are
-secure, responsive, and accessible."
+title: "App ionic em uma IDE online"
+date: "2017-10-03"
+description: "App ionic em uma IDE online"
 
 ---
 
