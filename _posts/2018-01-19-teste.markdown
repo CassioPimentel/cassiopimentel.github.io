@@ -1,6 +1,6 @@
 ---
 layout: post
-title": By The Way
+title: By The Way
 tagline: This is my Harp post
 ---
 
