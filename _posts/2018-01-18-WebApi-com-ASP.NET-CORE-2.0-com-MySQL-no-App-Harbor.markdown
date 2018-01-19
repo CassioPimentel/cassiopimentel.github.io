@@ -1,7 +1,9 @@
 ---
 title: teste teste
 date: '2018-01-18'
+tagline: This is my Harp post
 description: WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbore
+
 published: true
 ---
 
