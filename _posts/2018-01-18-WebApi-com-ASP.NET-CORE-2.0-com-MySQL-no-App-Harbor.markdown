@@ -7,6 +7,7 @@ description: "Web Api usando ASP.NET CORE com MySQL e coloca-la em produção no
 
 Neste post irei mostrar como criar uma Web Api usando ASP.NET CORE e coloca-la em produção no AppHarbor, que é uma boa alternativa para testar projetos em .NET, e numa segunda etapa irei implementar o swagger.
 
+
 ![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/2318.WithAPIArchitecture.PNG)
 
 **O que será usado:**
