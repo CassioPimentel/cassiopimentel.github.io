@@ -1,8 +1,12 @@
-%meta{ :property => 'og:title', :content => 'Article/Site Title' }
-%meta{ :property => 'og:site_name', :content => 'Site Name' }
-%meta{ :property => 'og:url', :content => 'http://www.example.com' }
-%meta{ :property => 'og:description', :content => 'Site Description' }
-%meta{ :property => 'og:image', :content => 'http://www.example.com/images/og.png' }
+---
+layout: post
+title:  "Learning to COPE with microservices"
+categories: blog
+tags: cope microservices api-first dadi
+external-url: https://css-tricks.com/learning-cope-microservices
+external-name: CSS-Tricks
+external-date: 2016-07-22
+---
 
 **WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor**
 ---------------------------------------------------
