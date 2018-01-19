@@ -1,8 +1,8 @@
 ---
-title: "WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor"
-date: "2018-01-18"
-description: "WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbore"
-
+title: teste teste
+date: '2018-01-18'
+description: WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbore
+published: true
 ---
 
 **WebApi com ASP.NET CORE 2.0 com MySQL no AppHarbor**
@@ -191,4 +191,3 @@ http://aspnetcorewebapiappharbor.apphb.com/api/marca
 http://aspnetcorewebapiappharbor.apphb.com/api/modelo
 
 **Link Github:** https://github.com/CassioPimentel/ASPNETCOREWebAPIAppHarbor
-
