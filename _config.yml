@@ -2,7 +2,8 @@
 title: 'Cassio Pimentel'
 description: 'Desenvolvedor de Software'
 url: 'http://cassiopimentel.github.io/'
-baseurl: 'http://cassiopimentel.github.io'
+baseurl: 'http://cassiopimentel.github.io/'
+url2: 'http://cassiopimentel.github.io'
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'cassiopimentel'
 
