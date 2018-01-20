@@ -1,11 +1,8 @@
 ---
 layout: post
-title:  "Learning to COPE with microservices"
+title:  "If you were in my shoes"
 categories: blog
-tags: cope microservices api-first dadi
-external-url: https://css-tricks.com/learning-cope-microservices
-external-name: CSS-Tricks
-external-date: 2018-01-18
+tags: dadi ico crowdsale
 ---
 
 
