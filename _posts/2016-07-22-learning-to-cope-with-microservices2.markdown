@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Learning to COPE with microservices"
-categories: blog
 tags: cope microservices api-first dadi
 external-url: https://css-tricks.com/learning-cope-microservices
 external-name: CSS-Tricks
 external-date: 2016-07-22
 ---
+
 I vividly remember my first encounter with a content management system: It was 2002 with a platform called [PHP-Nuke](https://en.wikipedia.org/wiki/PHP-Nuke). It offered a control panel where site administrators could publish new content that would be immediately available to readers, without the need to create/edit HTML files and upload them via FTP (which at the time was the only reality I knew).<!--more-->
 
 Once I'd made the jump to a CMS, I didn't look back. CMSs quickly became part of my toolkit as a web developer, and I didn’t really stop to question how they worked. I spent a lot of time learning my way around the various components of the web stack; falling in and out of love with different languages, paradigms, frameworks and tools. It took me a long time to stop and think about the most important part of any system: how it manages and stores content.
