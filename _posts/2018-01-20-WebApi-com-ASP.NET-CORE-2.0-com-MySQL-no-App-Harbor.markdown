@@ -1,13 +1,13 @@
 ---
-title: "App ionic em uma IDE online"
+title: "Web Api com ASP.NET CORE 2.0 com deploy na nuvem"
 date: "2018-01-20"
-description: "App ionic em uma IDE online"
+description: ""
 
 ---
 
 Neste post irei mostrar como criar uma Web Api usando ASP.NET CORE e coloca-la em produção no AppHarbor, que é uma boa alternativa para testar projetos em .NET, e numa segunda etapa irei implementar o swagger.
 
-![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/2318.WithAPIArchitecture.PNG)
+![Web Api com ASP.NET CORE 2.0 com deploy na nuvem](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/2318.WithAPIArchitecture.PNG)
 
 **O que será usado:**
 
