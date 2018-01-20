@@ -1,4 +1,9 @@
+---
+title: "App ionic em uma IDE online"
+date: "2017-10-03"
+description: "App ionic em uma IDE online"
 
+---
 
 Neste post irei mostrar como criar uma Web Api usando ASP.NET CORE e coloca-la em produção no [AppHarbor](https://appharbor.com/), que é uma boa alternativa para testar projetos em .NET, e numa segunda etapa irei implementar o swagger.
 
