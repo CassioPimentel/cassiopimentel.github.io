@@ -5,7 +5,10 @@ description: "Aprenda a criar um simples Web Api com ASP.NET CORE 2.0 e fazer o 
 
 ---
 
-	Neste post irei mostrar como criar uma Web Api usando ASP.NET CORE e coloca-la em produção no AppHarbor.
+
+   Neste post irei mostrar como criar uma Web Api usando ASP.NET CORE e coloca-la em produção no AppHarbor, , que é uma boa alternativa para testar projetos em .NET, e numa segunda etapa irei implementar o swagger.
+
+![Web Api com ASP.NET CORE 2.0 com deploy na nuvem](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/2318.WithAPIArchitecture.PNG)
 
 **O que será usado:**
 
