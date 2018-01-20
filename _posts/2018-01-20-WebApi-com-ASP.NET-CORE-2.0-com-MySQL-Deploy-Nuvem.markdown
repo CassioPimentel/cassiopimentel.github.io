@@ -6,10 +6,7 @@ description: "Aprenda a criar um simples Web Api com ASP.NET CORE 2.0 e fazer o 
 ---
 
 
-   Neste post irei mostrar como criar uma Web Api usando ASP.NET CORE e coloca-la em produção no AppHarbor, , que é uma boa alternativa para testar projetos em .NET, e numa segunda etapa irei implementar o swagger.
-
-![Web Api com ASP.NET CORE 2.0 com deploy na nuvem](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/2318.WithAPIArchitecture.PNG)
-
+----------
 ---
 title: "App ionic em uma IDE online"
 date: "2017-10-03"
@@ -134,4 +131,69 @@ Após isto vamos criar o banco de dados, mas antes disso, devemos criar uma tabe
     CREATE TABLE `NOME DO SEU DATABASE`.`__EFMigrationsHistory` 
     ( 
 	    `MigrationId` nvarchar(150) NOT NULL, 
-	    `ProductVersion
+	    `ProductVersion` nvarchar(32) NOT NULL, 
+	     PRIMARY KEY (`MigrationId`) 
+	);
+
+Para saber mais sobre este [problema](https://stackoverflow.com/questions/46089982/ef-core-update-database-on-mysql-fails-with-efmigrationshistory-doesnt-ex).
+
+Depois de criar a tabela manualmente, basta adicionar a Migration e fazer o Update no banco de dados:
+
+   
+
+ - Add-Migration FirstMigration 	
+ - Update-Database
+
+**Criação dos Controllers**
+
+Parte bem simples, iremos utilizar o scaffolding do ASP.NET CORE, para isto clique com o botão direito em Controllers vá em adicionar->Controller, e escolha a opção Controlador API com ações, usando Entity Framework:
+
+
+![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/criarController1.jpg)
+
+
+E mudar o nome padrão do controller, exemplo da classe Modelo:
+
+![Modelo](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/modelo.jpg)
+
+Depois faça o mesmo para Marca.
+
+**Testando a API localmente**
+
+A api já esta funcionando, mesmo com o banco de dados estando na nuvem(já vou mostrar como colocar o código também), irei testar usando o [Postman](https://www.getpostman.com/), primeiro irei gravar uma marca, e depois buscar todas as marcas:
+
+**POST Marca:**
+
+![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/PostMarca.jpg)
+
+**GET Marca:**
+
+![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/GetMarca.jpg)
+
+Perceba que ao buscar todas as Marcas o atributo modelo esta vazio pois esta Marca não tem nenhum modelo de carro cadastrado. Perceba também que utilizo a rota api/Marca, o scaffolding gera esta nomenclatura automaticamente: **api/Nome do Controller**, mas nada impede de você muda-la.
+
+**Deploy**
+
+Com o projeto funcionando localmente, nos falta apenas fazer o deploy para o AppHarbor, esta etapa é bem facial, primeiramente você deve acessar [esta ](https://blog.appharbor.com/2012/4/25/introducing-the-appharbor-command-line-utility) pagina do AppHarbor e clicar em **Download AppHarbor CLI**, que é um programa do AppHarbor para fazermos o deploy via linha de comando no cmd. A instalação é bem simples, e apos conclui-la basta abrir o cmd, navegar até a pagina do projeto e digitar os comandos abaixo:
+
+ - **dotnet publish**
+ - Após isso vá ate Debug\netcoreapp2.0\publish
+ - digite o comando **appharbor user login**, irá pedir o seu login e senha
+ - **appharbor deploy -a NomeDoProjetoCriadoNoAppHarbor**
+
+Agora volte ao AppHarbor, na pagina do seu projeto, e se der tudo certo, basta clicar no link  **Go to your application** que vai ta logo a frente do nome do seu projeto.
+
+Obs: o deploy pode demorar um pouco, no meu caso foi 30 segundos ate funcionar normalmente, caso demore muito é porque houve algum erro no deploy, basta clicar no status, e terá o ocorreu:
+
+![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/status.jpg)
+
+A url da sua WebApi sera: **NomeProjeto.apphb.com/SuaRota**.
+
+
+No próximo post irei implementar neste projeto, ate mais.
+
+**Link da WebAPI:** 
+http://aspnetcorewebapiappharbor.apphb.com/api/marca
+http://aspnetcorewebapiappharbor.apphb.com/api/modelo
+
+**Link Github:** https://github.com/CassioPimentel/ASPNETCOREWebAPIAppHarbor
