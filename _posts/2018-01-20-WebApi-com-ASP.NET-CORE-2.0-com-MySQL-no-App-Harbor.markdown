@@ -1,7 +1,7 @@
 ---
-title: "Web Api usando ASP.NET CORE e deploy na nuvem"
+title: "App ionic em uma IDE online"
 date: "2018-01-20"
-description: "Web Api usando ASP.NET CORE e coloca-la em produção no AppHarbor"
+description: "App ionic em uma IDE online"
 
 ---
 
