@@ -1,7 +1,7 @@
 ---
 title: "Web Api com ASP.NET CORE 2.0 com deploy na nuvem"
 date: "2018-01-20"
-description: ""
+description: "Aprenda a criar um simples Web Api com ASP.NET CORE 2.0 e fazer o deploy na nuvem e usando MySQL."
 
 ---
 
