@@ -1,7 +1,7 @@
 ---
 title: "App ionic em uma IDE online"
 date: "2017-10-03"
-description: "App ionic em uma IDE online"
+description: "Como execultar um App com ionic em uma IDE totalmente online"
 
 ---
 
