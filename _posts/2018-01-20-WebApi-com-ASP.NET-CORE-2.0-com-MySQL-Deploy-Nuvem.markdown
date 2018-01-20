@@ -1,11 +1,13 @@
 ---
 title: "Web Api com ASP.NET CORE 2.0 com deploy na nuvem"
 date: "2018-01-20"
-description: "Aprenda a criar um simples Web Api com ASP.NET CORE 2.0 e fazer o deploy na nuvem e usando MySQL."
+description: "Aprenda a criar um simples Web Api com ASP.NET CORE 2.0 e fazer o deploy na nuvem."
 
 ---
 
-Aprenda a criar um simples Web Api com ASP.NET CORE 2.0 e fazer o deploy na nuvem e usando MySQL
+Aprenda a criar um simples Web Api com ASP.NET CORE 2.0 e fazer o deploy na nuvem usando o banco de dados MySQL.
+
+![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PostWebApiAppHarbor/1516320928f2c5c01f47183f2940df2f707f26a200%20%281%29.jpg)
 
 **O que será usado:**
 
