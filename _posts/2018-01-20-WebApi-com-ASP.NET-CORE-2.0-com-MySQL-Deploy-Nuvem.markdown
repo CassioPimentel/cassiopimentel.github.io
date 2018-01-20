@@ -5,18 +5,7 @@ description: "Aprenda a criar um simples Web Api com ASP.NET CORE 2.0 e fazer o 
 
 ---
 
-
-----------
----
-title: "App ionic em uma IDE online"
-date: "2017-10-03"
-description: "Como execultar um App com ionic em uma IDE totalmente online"
-
----
-
-Neste post irei mostrar como executar um App em ionic usando uma IDE totalmente online.
-
-####  **IDE usada**
+Aprenda a criar um simples Web Api com ASP.NET CORE 2.0 e fazer o deploy na nuvem e usando MySQL
 
 **O que será usado:**
 
