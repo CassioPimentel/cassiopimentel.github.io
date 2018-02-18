@@ -9,18 +9,18 @@ Neste post irei mostrar como fazer o scraping de um produto da loja da Amazon bu
 
 ![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/webscripingpython/web-scraping-services.png)
 
-# O que será usado
+**O que será usado**
 
  - python 2.7
  - urllib
  - BeautifulSoup
  - [Cloud 9](https://c9.io/login) IDE online, já falei sobre isso [Aqui](http://cassiopimentel.github.io/2017/App-ionic-em-uma-IDE-online/)
 
-## A biblioteca usada
+**A biblioteca usada**
 
 A biblioteca usada será o BeautifulSoup, que é bem conhecida por quem costuma fazer web crawler de algum site usando python. Esta biblioteca ajuda a organizar e formatar o HTML buscado.
 
-## Instalação
+**Instalação**
 
 Os passos para instalação são:
 
@@ -28,7 +28,7 @@ Os passos para instalação são:
  - apt-get install python-bs4
 [Mais informações](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup)
 
-## Execultando o BeautifulSoup
+**Execultando o BeautifulSoup**
 
 Primeiramente, teremos que fazer um request no site desejado, e com a função urlopen acessar o conteúdo da pagina HTML, e então iremos colocar este conteúdo em um objeto BeautifulSoup:
 
@@ -42,7 +42,7 @@ Primeiramente, teremos que fazer um request no site desejado, e com a função u
 
 O resultado deste codigo será o titulo da pagina.
 
-## Buscar informações especificas da pagina
+**Buscar informações especificas da pagina**
 
 O BeautifulSoup tem funções que nós ajudam a buscar informações especificas das quais queremos. Nós usaremos apenas uma:
 
@@ -71,7 +71,7 @@ Isso ira buscar todas as tag span que tenha o id productTitle. Para garantir que
 
     Descricao = ObjBS .findAll("div", {"class": "productDescriptionWrapper"});
 
-## Resultado Final
+**Resultado Final**
 **Código**
 https://github.com/CassioPimentel/ScrapingAmazon
 
