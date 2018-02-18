@@ -40,7 +40,7 @@ Primeiramente, teremos que fazer um request no site desejado, e com a função u
     ObjBS = BeautifulSoup(pagina.read())
     print(ObjBS.title)
 
-O resultado desta pagina será o titulo da pagina.
+O resultado deste codigo será o titulo da pagina.
 
 ## Buscar informações especificas da pagina
 
