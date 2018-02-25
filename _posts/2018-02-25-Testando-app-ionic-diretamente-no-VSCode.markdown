@@ -5,8 +5,6 @@ description: "Aprenda a testar um app feito em ionic diretamente no Visual studi
 
 ---
 
-# Testando App ionic diretamento no VS Code
-
 Neste post irei mostrar como testar um app feito em ionic diretamente no Visual studio Code, não sendo necessário ficar utilizando ALT+TAB.
 
 ![](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/pluginPreviewVSCodeIonic/ionic.jpeg)
