@@ -41,8 +41,11 @@ E neste DB que as tabelas do HangFire serão criadas. A próxima etapa será col
 
     public void Configuration(IAppBuilder app)
     {
-			GlobalConfiguration.Configuration
-	            .UseSqlServerStorage("Data Source=(localdb)\v11.0;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+	    GlobalConfiguration.Configuration
+	    	.UseSqlServerStorage("Data Source=(localdb)\v11.0;Initial Catalog=master;
+				      Integrated Security=True;Connect Timeout=30;Encrypt=False;
+				      TrustServerCertificate=True;ApplicationIntent=ReadWrite;
+				      MultiSubnetFailover=False");
     
             app.UseHangfireDashboard();
             app.UseHangfireServer();
@@ -54,12 +57,13 @@ O próximo passo é criar o Job Recorrente, no exemplo criei um controller chama
 
     public ActionResult Index()
     {
-			RecurringJob.AddOrUpdate(
-	            () => EnviarEmails(),
+	    RecurringJob.AddOrUpdate(
+	        () => EnviarEmails(),
                 Cron.MinuteInterval(2));
                 
             return View();
     }
+    
 Não irei implementar o envio do e-mail em si, caso tenha interrese, [este](https://stackoverflow.com/questions/9201239/send-e-mail-via-smtp-using-c-sharp) link tem as informações necessárias para implementar a função
 
 O código acima cria o job, que ira executar  a função `EnviarEmails()`, por dois minutos. No lugar de minutos poderia usar segundos, horas, dias e assim por diante.
@@ -69,3 +73,4 @@ Quando você executar o site pela primeira vez, algumas tabelas serão criadas p
 ![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/hangfire-aspnet/dasboard.jpg)
 
 O painel do Hangfire mostra informações detalhadas sobre tarefas, filas, status de tarefas e assim por diante.
+a
