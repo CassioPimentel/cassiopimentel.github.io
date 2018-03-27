@@ -5,6 +5,8 @@ description: "O hangfire foi construído para facilitar o agendamentos de Jobs e
 
 ---
 
+O hangfire foi construído para facilitar o agendamentos de Jobs e tarefas recorrentes de forma muito fácil. O que o diferencia de outros, por exemplo o Quartz.Net, que é bastante conhecido, é que não precisa de serviços do windows para o seu funcionamento.
+
 No nosso exemplo iremos simular uma tarefa recorrente de envio de e-mail em um aplicativo web ASP.NET MVC, este exemplo é baseado em algo real que usei no trabalho.
 
 ![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/hangfire-aspnet/hangfire.jpg)
