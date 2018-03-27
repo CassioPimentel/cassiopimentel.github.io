@@ -73,4 +73,6 @@ Quando você executar o site pela primeira vez, algumas tabelas serão criadas p
 ![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/hangfire-aspnet/dasboard.jpg)
 
 O painel do Hangfire mostra informações detalhadas sobre tarefas, filas, status de tarefas e assim por diante.
-a
+
+
+
