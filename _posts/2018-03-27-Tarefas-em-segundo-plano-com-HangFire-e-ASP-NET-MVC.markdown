@@ -37,7 +37,7 @@ Clique com o botão direito no segundo DB do SQL Server e vá até as propriedad
 
 ![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/hangfire-aspnet/CONECTION%20STRING.jpg)
 
-E neste DB que as tabelas do HangFire serão criadas. A próxima etapa será colocar algumas linhas de código no arquivo `startup.cs` para que o HangFire funcione corretamente:
+É neste DB que as tabelas do HangFire serão criadas. A próxima etapa será colocar algumas linhas de código no arquivo `startup.cs` para que o HangFire funcione corretamente:
 
     public void Configuration(IAppBuilder app)
     {
