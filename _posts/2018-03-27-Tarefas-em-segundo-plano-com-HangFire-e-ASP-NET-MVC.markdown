@@ -5,9 +5,9 @@ description: "O hangfire foi construído para facilitar o agendamentos de Jobs e
 
 ---
 
-![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/hangfire-aspnet/hangfire.jpg)
-
 No nosso exemplo iremos simular uma tarefa recorrente de envio de e-mail em um aplicativo web ASP.NET MVC, este exemplo é baseado em algo real que usei no trabalho.
+
+![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/hangfire-aspnet/hangfire.jpg)
 
 ## Requisitos
 
