@@ -51,7 +51,7 @@ E neste DB que as tabelas do HangFire serão criadas. A próxima etapa será col
             app.UseHangfireServer();
     }
 
-Em UseSqlServerStorage eu coloquei a string de conexão copiada acima, mas em um projeto "real" você colocar o nome da string de conexão que estará no arquivo Web.config.
+Em UseSqlServerStorage eu coloquei a string de conexão copiada acima, mas em um projeto "real" você deve colocar o nome da string de conexão que estará no arquivo Web.config.
 
 O próximo passo é criar o Job Recorrente, no exemplo criei um controller chamado Home e numa action Index adicionei o seguinte codigo:
 
