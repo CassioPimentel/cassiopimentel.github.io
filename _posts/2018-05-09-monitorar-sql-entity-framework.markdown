@@ -5,6 +5,8 @@ description: "Neste post irei mostrar como monitorar todos os SQL gerados pelo e
 
 ---
 
+Neste post irei mostrar como monitorar todos os SQL gerados pelo entity framework, no output do visual studio.
+
 ![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/monitorar-sql/orm.jpg)
 
 Isto é algo importante, principalmente onde há consultas mais complexas que podem afetar o desempenho da aplicação.
@@ -29,4 +31,5 @@ Algo que uso também é colocar um if antes da instrução, para que o comando s
 
 
 **Delegates**:  [C# - Delegates e Eventos : Conceitos básicos](http://www.macoratti.net/11/05/c_dlg1.htm)
+
 **Delegate Action**: [C# - O Delegate Action](http://www.macoratti.net/14/11/c_deleg1.htm)
