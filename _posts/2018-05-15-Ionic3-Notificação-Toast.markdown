@@ -1,9 +1,11 @@
 ---
 title: "Ionic 3 - Notificação Toast"
-date: "2018-15-05"
+date: "2018-05-15"
 description: "Neste post rápido, iremos implementar o Toast, que é uma pequena notificação usada em aplicações modernas, seja mobile ou web."
 
 ---
+
+Neste post rápido, iremos implementar o Toast, que é uma pequena notificação usada em aplicações modernas, seja mobile ou web.
 
 ![](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/NotificacaoToast/Toast.jpg)
 
