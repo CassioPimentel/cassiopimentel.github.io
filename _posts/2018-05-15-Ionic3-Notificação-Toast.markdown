@@ -1,5 +1,5 @@
 ---
-title: "Ionic 3 - Notificação Toast"
+title: "Ionic 3 - Notificações com Toast"
 date: "2018-05-15"
 description: "Neste post rápido, iremos implementar o Toast, que é uma pequena notificação usada em aplicações modernas, seja mobile ou web."
 
