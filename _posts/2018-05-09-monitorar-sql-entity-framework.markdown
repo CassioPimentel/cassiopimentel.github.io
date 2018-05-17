@@ -13,7 +13,9 @@ Isto é algo importante, principalmente onde há consultas mais complexas que po
 
 O processo para visualizar os SQLs gerados no output do Visual Studio é bem simples, é apenas uma linha de codigo, no construtor da(s) classe(s) que herdem de DBContext:
 
-    Database.Log = s => System.Diagnostics.Debug.WriteLine(s);
+```csharp
+Database.Log = s => System.Diagnostics.Debug.WriteLine(s);
+```
 
 A propriedade `Log`é um delegate do tipo `Action<string>` (**Delegate**: elemento que permite que você faça referencia a um método, parecido com ponteiros de funções) este delegate não retorna nada e espera um argumento **s** do tipo string.
 
