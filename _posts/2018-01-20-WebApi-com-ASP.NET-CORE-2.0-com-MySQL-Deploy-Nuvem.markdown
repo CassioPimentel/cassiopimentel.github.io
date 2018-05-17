@@ -40,47 +40,53 @@ Os Modelos tem apenas uma marca, e uma marca tem vários Modelos. E para exempli
 
 **As classes ficaram assim:**
 
-    public class Modelo
-    {
-	    [Key]
-        public int Codigo { get; set; }
-        public string Nome { get; set; }
-        public virtual Marca Marca { get; set; }
-    }
+```cs
+public class Modelo
+{
+	[Key]
+	public int Codigo { get; set; }
+	public string Nome { get; set; }
+	public virtual Marca Marca { get; set; }
+}
 
-    public class Marca
-    {
-        public Marca()
-        {
-            Modelo = new List<Modelo>();
-        }
-		[Key]
-        public int Codigo { get; set; }
-        public string Nome { get; set; }
+public class Marca
+{
+	public Marca()
+	{
+		Modelo = new List<Modelo>();
+	}
+	[Key]
+	public int Codigo { get; set; }
+	public string Nome { get; set; }
 
-        public virtual ICollection<Modelo> Modelo { get; set; }
-    }
+	public virtual ICollection<Modelo> Modelo { get; set; }
+}
+```
 
 *Obs: para criar propriedades de classe de forma mais rapida, digite prop na sua classe aperte Tab, que o Visual Studio ira preencher o get e set.*
 
 onde [Key] é onde dizemos ao EntyFramework que aquele atributo é uma chave primeira do banco de dados.
 
 E deve-se usar os using abaixo nestas classes:
-	
-    using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
+
+```cs	
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+```
 
 Agora crie uma nova classe chamada Context, que herda de `DbContext`, que sera nosso contexto de dados:
 
-    public class Context : DbContext
-    {
-	    public Context(DbContextOptions<Context> options)
-                : base(options)
-        {
-        }
-        public DbSet<Marca> Marca { get; set; }
-        public DbSet<Modelo> Modelo { get; set; }
-    }
+```cs
+public class Context : DbContext
+{
+	public Context(DbContextOptions<Context> options)
+	: base(options)
+	{
+	}
+	public DbSet<Marca> Marca { get; set; }
+	public DbSet<Modelo> Modelo { get; set; }
+}
+    ```
 
 Bem simples, nada novo ate aqui.
 
@@ -107,31 +113,33 @@ Após instalar o banco, clique em **MySql->Go to MySql** e copie a Connection st
 
 Neste ponto devemos registrar nosso Context de bando de dados, isto é feito ConfigureServices do arquivo Startup.cs (**Nesta etapa você cola sua connection string**):
 
-    public void ConfigureServices(IServiceCollection services)
-    {
-        services.AddMvc();
+```cs
+public void ConfigureServices(IServiceCollection services)
+{
+	services.AddMvc();
 
-        services.AddDbContext<Context>(options =>
-                 options.UseMySQL("STRING DE CONEXAO"));
+	services.AddDbContext<Context>(options =>
+		 options.UseMySQL("STRING DE CONEXAO"));
 
-    }
+}
+```
 
 Após isto vamos criar o banco de dados, mas antes disso, devemos criar uma tabela de migrations history manualmente, já que o conector do MySql ainda não prove suporte total com o EntityFramework Core, então devemos fazer isto manualmente. Basta copiar e colar o sql abaixo e gerar a tabela no MySql(Eu utilizo o MySql workbench para isto):
 
-
-    CREATE TABLE `NOME DO SEU DATABASE`.`__EFMigrationsHistory` 
-    ( 
-	    `MigrationId` nvarchar(150) NOT NULL, 
-	    `ProductVersion` nvarchar(32) NOT NULL, 
-	     PRIMARY KEY (`MigrationId`) 
-	);
+```sql
+CREATE TABLE `NOME DO SEU DATABASE`.`__EFMigrationsHistory` 
+( 
+    `MigrationId` nvarchar(150) NOT NULL, 
+    `ProductVersion` nvarchar(32) NOT NULL, 
+     PRIMARY KEY (`MigrationId`) 
+);
+```cs
 
 Para saber mais sobre este [problema](https://stackoverflow.com/questions/46089982/ef-core-update-database-on-mysql-fails-with-efmigrationshistory-doesnt-ex).
 
 Depois de criar a tabela manualmente, basta adicionar a Migration e fazer o Update no banco de dados:
 
    
-
  - Add-Migration FirstMigration 	
  - Update-Database
 
