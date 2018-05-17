@@ -32,13 +32,15 @@ Os passos para instalação são:
 
 Primeiramente, teremos que fazer um request no site desejado, e com a função urlopen acessar o conteúdo da pagina HTML, e então iremos colocar este conteúdo em um objeto BeautifulSoup:
 
-    import urllib
-    from bs4 import BeautifulSoup
-    
-    url = "https://www.amazon.com.br/Loja-Tudo-Jeff-Bezos-Amazon/dp/8580574897/ref=sr_1_1?ie=UTF8&qid=1518971948&sr=8-1&keywords=loja+de"
-    pagina = urllib.urlopen(url)
-    ObjBS = BeautifulSoup(pagina.read())
-    print(ObjBS.title)
+```python
+import urllib
+from bs4 import BeautifulSoup
+
+url = "https://www.amazon.com.br/Loja-Tudo-Jeff-Bezos-Amazon/dp/8580574897/ref=sr_1_1?ie=UTF8&qid=1518971948&sr=8-1&keywords=loja+de"
+pagina = urllib.urlopen(url)
+ObjBS = BeautifulSoup(pagina.read())
+print(ObjBS.title)
+```
 
 O resultado deste codigo será o titulo da pagina.
 
@@ -46,7 +48,9 @@ O resultado deste codigo será o titulo da pagina.
 
 O BeautifulSoup tem funções que nós ajudam a buscar informações especificas das quais queremos. Nós usaremos apenas uma:
 
-    findAll()
+```python
+findAll()
+```
 
 Com o findAll() podemos filtrar elementos especificos nas paginas HTML, apartir de atributos de tags. 
 
@@ -56,20 +60,28 @@ Para saber qual é a tag do elemento que queremos, basta selecionar o que querem
 
 Neste caso queremos o **id** da tag **span**:
 
-    ObjBS .findAll("span", {"id": "productTitle"});
+```python
+ObjBS .findAll("span", {"id": "productTitle"});
+```
 
 Isso ira buscar todas as tag span que tenha o id productTitle. Para garantir que vamos pegar a primeira ocorrencia, podemos tratar assim:
 
-    Aux = ObjBS .findAll("span", {"id": "productTitle"});
-    Titulo = Aux[0].text
+```python
+Aux = ObjBS .findAll("span", {"id": "productTitle"});
+Titulo = Aux[0].text
+```
 
  **- Para pegar o preço**
 
-    Preco = ObjBS .findAll("span", {"class": "a-size-base a-color-price a-color-price"});
+```python
+Preco = ObjBS .findAll("span", {"class": "a-size-base a-color-price a-color-price"});
+```
 
  **- Pegar a Descrição**
 
-    Descricao = ObjBS .findAll("div", {"class": "productDescriptionWrapper"});
+```python
+Descricao = ObjBS .findAll("div", {"class": "productDescriptionWrapper"});
+```
 
 **Resultado Final**
 **Código**
