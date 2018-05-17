@@ -86,7 +86,7 @@ public class Context : DbContext
 	public DbSet<Marca> Marca { get; set; }
 	public DbSet<Modelo> Modelo { get; set; }
 }
-    ```
+```
 
 Bem simples, nada novo ate aqui.
 
@@ -133,7 +133,7 @@ CREATE TABLE `NOME DO SEU DATABASE`.`__EFMigrationsHistory`
     `ProductVersion` nvarchar(32) NOT NULL, 
      PRIMARY KEY (`MigrationId`) 
 );
-```cs
+```
 
 Para saber mais sobre este [problema](https://stackoverflow.com/questions/46089982/ef-core-update-database-on-mysql-fails-with-efmigrationshistory-doesnt-ex).
 
