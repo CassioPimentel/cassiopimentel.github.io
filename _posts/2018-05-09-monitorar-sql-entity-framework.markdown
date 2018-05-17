@@ -23,12 +23,10 @@ A propriedade `Log`é um delegate do tipo `Action<string>` (**Delegate**: elemen
 
 Algo que uso também é colocar um if antes da instrução, para que o comando seja executado apenas em modo Debug:
 
-```
-
-    #if DEBUG
-        Database.Log = s => System.Diagnostics.Debug.WriteLine(s);
-    #endif
-
+```cs
+#if DEBUG
+    Database.Log = s => System.Diagnostics.Debug.WriteLine(s);
+#endif
 ```
 
 
