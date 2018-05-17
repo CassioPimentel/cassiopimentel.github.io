@@ -21,7 +21,9 @@ Apos isto crie uma variavel no Construtor da sua page:
 
 Agora para usar, basta adicionar a linha abaixo para que a mensagem seja apresentada:
 
-    this.toast.create({ message: 'Teste', duration: 3000, position: 'botton' }).present();
+```javascript
+this.toast.create({ message: 'Teste', duration: 3000, position: 'botton' }).present();
+```
 
 **message**: mensagem a ser exibida.
 **duration**: duração em milissegundos que a mensagem fica na tela.
