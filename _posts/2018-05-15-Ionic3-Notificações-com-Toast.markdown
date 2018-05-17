@@ -13,11 +13,15 @@ Neste post rápido, iremos implementar o Toast, que é uma pequena notificação
 
 Primeiro devemos importar o ToastController:
 
+```javascript
     import { ToastController } from 'ionic-angular';
+```
 
 Apos isto crie uma variavel no Construtor da sua page:
 
+```javascript
     constructor(private toast: ToastController){ }
+```
 
 Agora para usar, basta adicionar a linha abaixo para que a mensagem seja apresentada:
 
