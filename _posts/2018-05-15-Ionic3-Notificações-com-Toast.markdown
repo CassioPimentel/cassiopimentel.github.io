@@ -29,9 +29,9 @@ Agora para usar, basta adicionar a linha abaixo para que a mensagem seja apresen
 this.toast.create({ message: 'Teste', duration: 3000, position: 'botton' }).present();
 ```
 
-**message**: mensagem a ser exibida.&nbsp;
-**duration**: duração em milissegundos que a mensagem fica na tela.&nbsp;
-**position**: posição na tela. Valores aceitos: "top", "middle", "bottom".&nbsp;
+**message**: mensagem a ser exibida.\
+**duration**: duração em milissegundos que a mensagem fica na tela.\
+**position**: posição na tela. Valores aceitos: "top", "middle", "bottom".\
 
 Documentação: https://ionicframework.com/docs/api/components/toast/ToastController/
 
