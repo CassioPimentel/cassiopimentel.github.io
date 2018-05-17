@@ -13,7 +13,7 @@ Isto é algo importante, principalmente onde há consultas mais complexas que po
 
 O processo para visualizar os SQLs gerados no output do Visual Studio é bem simples, é apenas uma linha de codigo, no construtor da(s) classe(s) que herdem de DBContext:
 
-```csharp
+```cs
 Database.Log = s => System.Diagnostics.Debug.WriteLine(s);
 ```
 
