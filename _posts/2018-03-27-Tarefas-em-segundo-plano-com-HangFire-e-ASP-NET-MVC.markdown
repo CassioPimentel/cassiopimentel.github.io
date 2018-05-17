@@ -60,14 +60,14 @@ Em UseSqlServerStorage eu coloquei a string de conexão copiada acima, mas em um
 O próximo passo é criar o Job Recorrente, no exemplo criei um controller chamado Home e numa action Index adicionei o seguinte codigo:
 
 ```cs
-    public ActionResult Index()
-    {
-	    RecurringJob.AddOrUpdate(
-	        () => EnviarEmails(),
-                Cron.MinuteInterval(2));
-                
-            return View();
-    }
+public ActionResult Index()
+{
+    RecurringJob.AddOrUpdate(
+	() => EnviarEmails(),
+	Cron.MinuteInterval(2));
+
+    return View();
+}
 ```
     
 Não irei implementar o envio do e-mail em si, caso tenha interrese, [este](https://stackoverflow.com/questions/9201239/send-e-mail-via-smtp-using-c-sharp) link tem as informações necessárias para implementar a função
