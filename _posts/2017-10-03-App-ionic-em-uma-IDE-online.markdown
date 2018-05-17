@@ -27,7 +27,7 @@ A criação do projeto no cloud 9 é bem simples, após logar, basta criar uma n
 
 Após o workspace ser criado, basta ir no console e instalar o ionic:
 
-```sh
+```javascript
 npm install -g cordova ionic
 ```
 
@@ -36,13 +36,13 @@ npm install -g cordova ionic
 
 Após a instalação ser concluida iremos criar um projeto ionic de exemplo:
 
-```sh
+```javascript
 ionic start myApp sidemenu
 ```
 
 Com o projeto criado podemos testa-lo. Para usar o ionic no cloud 9 iremos usar alguns parâmetros ao executar o app: 
 
-```sh
+```javascript
 ionic serve -p $PORT --nolivereload
 ```   
 
