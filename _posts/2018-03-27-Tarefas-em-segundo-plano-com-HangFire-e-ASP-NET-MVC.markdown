@@ -27,7 +27,9 @@ Iremos fazer a demo usando um aplicativo web em ASP.NET MVC simples e criaremos 
 
 Primeiramente crie um aplicativo web ASP.NET MVC e apos isto instale o HangFire usando o Nuget ou via Package Manager Console:
 
-    Install-Package HangFire -Version 1.6.17
+```cs
+Install-Package HangFire -Version 1.6.17
+``` 
 
 Com o projeto criado, no Visual Studio, vá até: View->SQL Server Object Explorer:
 
@@ -39,22 +41,25 @@ Clique com o botão direito no segundo DB do SQL Server e vá até as propriedad
 
 É neste DB que as tabelas do HangFire serão criadas. A próxima etapa será colocar algumas linhas de código no arquivo `startup.cs` para que o HangFire funcione corretamente:
 
-    public void Configuration(IAppBuilder app)
-    {
-	    GlobalConfiguration.Configuration
-	    	.UseSqlServerStorage("Data Source=(localdb)\v11.0;Initial Catalog=master;
-				      Integrated Security=True;Connect Timeout=30;Encrypt=False;
-				      TrustServerCertificate=True;ApplicationIntent=ReadWrite;
-				      MultiSubnetFailover=False");
-    
-            app.UseHangfireDashboard();
-            app.UseHangfireServer();
-    }
+```cs
+public void Configuration(IAppBuilder app)
+{
+    GlobalConfiguration.Configuration
+	.UseSqlServerStorage("Data Source=(localdb)\v11.0;Initial Catalog=master;
+			      Integrated Security=True;Connect Timeout=30;Encrypt=False;
+			      TrustServerCertificate=True;ApplicationIntent=ReadWrite;
+			      MultiSubnetFailover=False");
+
+    app.UseHangfireDashboard();
+    app.UseHangfireServer();
+}
+ ```
 
 Em UseSqlServerStorage eu coloquei a string de conexão copiada acima, mas em um projeto "real" você deve colocar o nome da string de conexão que estará no arquivo Web.config.
 
 O próximo passo é criar o Job Recorrente, no exemplo criei um controller chamado Home e numa action Index adicionei o seguinte codigo:
 
+```cs
     public ActionResult Index()
     {
 	    RecurringJob.AddOrUpdate(
@@ -63,6 +68,7 @@ O próximo passo é criar o Job Recorrente, no exemplo criei um controller chama
                 
             return View();
     }
+```
     
 Não irei implementar o envio do e-mail em si, caso tenha interrese, [este](https://stackoverflow.com/questions/9201239/send-e-mail-via-smtp-using-c-sharp) link tem as informações necessárias para implementar a função
 
