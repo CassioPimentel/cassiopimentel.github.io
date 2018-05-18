@@ -5,7 +5,7 @@ description: "Neste post ire mostrar como abrir paginas web dentro do seu aplica
 
 ---
 
-![](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PrtScr%20capture.jpg)
+![](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/pluginPreviewVSCodeIonic/ionic.jpeg)
 
 Neste post ire mostrar como abrir paginas web dentro do seu aplicativo Ionic.
 
