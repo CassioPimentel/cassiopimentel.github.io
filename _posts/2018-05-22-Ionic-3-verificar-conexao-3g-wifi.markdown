@@ -51,7 +51,7 @@ Irei utilizar um exemplo simples de um App com uma page chamada Home. Primeiro d
  }
 ```
 
-Com isto, podemos usar o plugin Network. A conexão será verificada no evento de pagina *ionViewDidEnter()* evento que é disparado depois que a Page está ativa, veja mais sobre eventos de pagina [aqui](https://ionicframework.com/docs/api/navigation/NavController/#lifecycle-events).  Neste exemplo iremos verificar apenas que o aparelho está desconectado. Para isto basta adicionar o codigo abaixo no evento ionViewDidEnter():
+Com isto, podemos usar o plugin Network. A conexão será verificada no evento de pagina *ionViewDidEnter()* evento que é disparado depois que a Page está ativa, veja mais sobre eventos de pagina [aqui](https://ionicframework.com/docs/api/navigation/NavController/#lifecycle-events).  Neste exemplo iremos verificar apenas se o aparelho está desconectado. Para isto basta adicionar o codigo abaixo no evento ionViewDidEnter():
 
 ```ts
  ionViewDidEnter(){
