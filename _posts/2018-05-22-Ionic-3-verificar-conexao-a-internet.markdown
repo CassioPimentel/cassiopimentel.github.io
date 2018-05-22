@@ -77,3 +77,4 @@ Para fazer o teste como eu fiz, basta executar o app com:
  - E depois na barra acima do device virtual ir em offline, para simular a desconexão da internet do aparelho.
 
 **Código fonte**: https://github.com/CassioPimentel/NetworkPluginIonic3
+**Documentação**: https://ionicframework.com/docs/native/network/
