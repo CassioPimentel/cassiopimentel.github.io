@@ -21,14 +21,14 @@ Com o projeto criado, execute os comandos abaixo:
 Após instalado, devemos adicionar o plugin Network como provider no AppModule:
 
   ```ts
-    import { Network } from  '@ionic-native/network';
+  import { Network } from  '@ionic-native/network';
     
-    @NgModule({
+  @NgModule({
     
-    providers: [ Network ]
-    })
+  providers: [ Network ]
+  })
    
-    export class AppModule {}
+  export class AppModule {}
 ```
 
 ## Teste
@@ -36,29 +36,29 @@ Após instalado, devemos adicionar o plugin Network como provider no AppModule:
 Irei utilizar um exemplo simples de um App com uma page chamada Home. Primeiro devemos importar o plugin na nossa page:
 
 ```ts
-    import { Component } from  '@angular/core';
-    import { NavController } from  'ionic-angular';
-    import { Network } from  '@ionic-native/network';
+ import { Component } from  '@angular/core';
+ import { NavController } from  'ionic-angular';
+ import { Network } from  '@ionic-native/network';
     
-    @Component({
-     selector:  'page-home',
-     templateUrl:  'home.html'
-    })
-    export  class  HomePage {
-    
-    constructor(public  navCtrl:  NavController,
-                public  network:  Network) {
-    }
+ @Component({
+   selector:  'page-home',
+   templateUrl:  'home.html'
+ })
+ export  class  HomePage {
+
+ constructor(public  navCtrl:  NavController,
+             public  network:  Network) {
+ }
 ```
 
-Com isto, podemos usar o plugin Network. A conexão será verificada no evento de pagina *ionViewDidEnter()*, veja mais sobre eventos de pagina [aqui](https://ionicframework.com/docs/api/navigation/NavController/#lifecycle-events).  Neste exemplo iremos verificar apenas que o aparelho está desconectado. Para isto basta adicionar o codigo abaixo no evento ionViewDidEnter():
+Com isto, podemos usar o plugin Network. A conexão será verificada no evento de pagina *ionViewDidEnter()* evento que é disparado depois que a Page está ativa, veja mais sobre eventos de pagina [aqui](https://ionicframework.com/docs/api/navigation/NavController/#lifecycle-events).  Neste exemplo iremos verificar apenas que o aparelho está desconectado. Para isto basta adicionar o codigo abaixo no evento ionViewDidEnter():
 
 ```ts
-    ionViewDidEnter(){
-    	this.network.onDisconnect().subscribe(data  => {
-    		console.log(data);
-    	}, error  =>  console.log(error));
-    }
+ ionViewDidEnter(){
+  this.network.onDisconnect().subscribe(data  => {
+   console.log(data);
+  }, error  =>  console.log(error));
+ }
 ```
 
 onDisconnect() retorna um Observable (emite notificações sempre que ocorre uma mudança em um de seus itens e a partir disso podemos executar uma ação, mais informações [aqui](https://tableless.com.br/entendendo-rxjs-observable-com-angular/)). Aqui você pode melhorar seu app usando notificações Toast do Ionic, eu mostrei como fazer isto [neste](http://cassiopimentel.github.io/2018/Ionic3-Notifica%C3%A7%C3%B5es-com-Toast/) post.
