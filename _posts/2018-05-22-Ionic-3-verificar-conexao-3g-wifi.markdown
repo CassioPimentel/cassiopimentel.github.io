@@ -1,7 +1,7 @@
 ---
-title: "Ionic 3 - Verificar conexão 3G/Wifi"
+title: "Ionic 3 - Verificar conexão a internet"
 date: "2018-05-22"
-description: "Neste post irei mostrar como detectar se o Aparelho está conectado a Internet, seja 3G ou Wifi."
+description: "Neste post irei mostrar como detectar se o Aparelho está conectado a Internet, seja *.G ou Wifi."
 
 ---
 
