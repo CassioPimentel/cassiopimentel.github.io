@@ -1,5 +1,5 @@
 ---
-title: "Ionic - Suporte a vibração"
+title: "Ionic 3 - Suporte a vibração"
 date: "2018-05-25"
 description: "Neste post irei mostrar como adicionar vibração ao seu App."
 
