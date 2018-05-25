@@ -41,7 +41,7 @@ Depois e só começar a usar. Para efeito de exemplo, irei colocar o celular par
 
 **home.html**
 
-```ts
+```html
 <ion-header>
     <ion-navbar>
         <ion-title>
