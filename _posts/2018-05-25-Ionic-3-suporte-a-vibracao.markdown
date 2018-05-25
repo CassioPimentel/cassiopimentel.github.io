@@ -22,6 +22,7 @@ Com o projeto criado, basta instalar o plugin Vibration:
 
 Primeiro adicione o plugin ao **app.module.ts**:
 
+```ts
     ...
     import { Vibration } from  '@ionic-native/vibration';
     
@@ -34,11 +35,13 @@ Primeiro adicione o plugin ao **app.module.ts**:
     })
     
     export  class  AppModule {}
+```
 
 Depois e só começar a usar. Para efeito de exemplo, irei colocar o celular para vibrar quando um botão for clicado. Usarei um Page chamado home.
 
 **home.html**
 
+```ts
     <ion-header>
     	<ion-navbar>
     		<ion-title>
@@ -50,9 +53,11 @@ Depois e só começar a usar. Para efeito de exemplo, irei colocar o celular par
     <ion-content  padding>
     	<button  ion-button (click)="Vibre()">Vibre</button>
     </ion-content>
+```
 
 **home.ts**
 
+```ts
     import { Component } from  '@angular/core';
     import { NavController } from  'ionic-angular';
     import { Vibration } from  '@ionic-native/vibration';
@@ -70,6 +75,7 @@ Depois e só começar a usar. Para efeito de exemplo, irei colocar o celular par
     		this.vibracao.vibrate(1000);
     	}
     }
+```
 
 O código é bem simples, no click do botão, o celular ira vibrar por 1 segundo.
 
