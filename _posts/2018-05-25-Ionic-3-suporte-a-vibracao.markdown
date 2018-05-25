@@ -8,7 +8,7 @@ description: "Neste post irei mostrar como adicionar vibração ao seu App."
 Neste post irei mostrar como adicionar vibração ao seu App, algo não muito usual nós aplicavos de hoje, mas que talvez possa ser usado
 em algum caso específico.
 
-![enter image description here](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/pluginPreviewVSCodeIonic/ionic.jpeg)
+![](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/pluginPreviewVSCodeIonic/ionic.jpeg)
 
 # Instalação
 
