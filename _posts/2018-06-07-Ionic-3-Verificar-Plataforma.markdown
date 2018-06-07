@@ -58,7 +58,7 @@ this.pltis.isLandscape()
 ou se esta em modo retrato:
 
 ```ts
-    this.pltis.isPortrait()
+this.pltis.isPortrait()
 ```
 
 Estes são os usos mais frequentes do plugin, caso queira saber mais basta acessar este [link](https://ionicframework.com/docs/api/platform/Platform/).
