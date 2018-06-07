@@ -1,6 +1,6 @@
 ---
 title: "Ionic 3 - Verificar Plataforma"
-date: "2018-05-25"
+date: "2018-06-07"
 description: "Neste post iremos mostrar como verificar a plataforma que o usuário esta usando, seja IOS, Android ou o próprio navegador, 
 se esta utilizando um tablet e a orientação do dispositivo."
 
