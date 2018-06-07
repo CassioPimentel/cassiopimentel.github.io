@@ -17,25 +17,25 @@ Para utilizar o serviço, basta incluir a referencia do mesmo na page ou service
 
 ```ts
     ...
-    import { Platform } from  'ionic-angular';
-    
-    @Component({
-    	selector:  'page-home',
-    	templateUrl:  'home.html'
-    })
-    export  class  HomePage {
-    
-    constructor(public  navCtrl:  NavController,
-    public  plt:  Platform) {
-    
-    	if (this.plt.is('android')) {
-    	}
+import { Platform } from  'ionic-angular';
+
+@Component({
+    selector:  'page-home',
+    templateUrl:  'home.html'
+})
+export  class  HomePage {
+
+constructor(public  navCtrl:  NavController,
+public  plt:  Platform) {
+
+    if (this.plt.is('android')) {
     }
-    
-    }
+}
+
+}
 ```
 
-Onde `this.plt.is` é onde verifico a plataforma. Abaixo há a lista de plataformas aceitas:
+Onde ```ts this.plt.is``` é onde verifico a plataforma. Abaixo há a lista de plataformas aceitas:
 
  - android
  - cordova 
@@ -51,10 +51,14 @@ Onde `this.plt.is` é onde verifico a plataforma. Abaixo há a lista de platafor
 
 Com o plugin platform você também pode verificar se o aparelho esta em modo paisagem ou não:
 
-    this.pltis.isLandscape()
+```ts
+this.pltis.isLandscape()
+```
 
 ou se esta em modo retrato:
 
+```ts
     this.pltis.isPortrait()
+```
 
 Estes são os usos mais frequentes do plugin, caso queira saber mais basta acessar este [link](https://ionicframework.com/docs/api/platform/Platform/).
