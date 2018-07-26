@@ -66,7 +66,7 @@ E no construtor pegar o valor:
 
 E mostrar o time:
 
-```ts
+```js
    <ion-content  padding>
      <h2> **{{time}}** </h2>
    </ion-content>
