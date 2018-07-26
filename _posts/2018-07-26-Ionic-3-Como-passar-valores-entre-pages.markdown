@@ -30,7 +30,7 @@ Este items ficará acima do construtor e será lido no **ngFor** no nosso fronte
 
 Nosso page1.html ficará assim:
 
-```html
+```
    <ion-content>
      <ion-list  inset>
      <button  ion-item *ngFor="let item of items" (click)="SelecionarItem(item)">
@@ -66,7 +66,7 @@ E no construtor pegar o valor:
 
 E mostrar o time:
 
-```html
+```
    <ion-content  padding>
      <h2> {{time}} </h2>
    </ion-content>
