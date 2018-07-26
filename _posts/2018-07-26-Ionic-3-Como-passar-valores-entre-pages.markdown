@@ -34,7 +34,7 @@ Nosso page1.html ficará assim:
    <ion-content>
      <ion-list  inset>
      <button  ion-item *ngFor="let item of items" (click)="SelecionarItem(item)">
-       {{item}}
+       { {item}}
      </button>
    </ion-list>
    </ion-content>
@@ -68,7 +68,7 @@ E mostrar o time:
 
 ```ts
    <ion-content  padding>
-     <h2>{{time}}</h2>
+     <h2>{ {time}}</h2>
    </ion-content>
 ```
 
