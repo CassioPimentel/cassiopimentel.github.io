@@ -68,7 +68,7 @@ E mostrar o time:
 
 ```js
    <ion-content  padding>
-     <h2> **{{time}}** </h2>
+     <h2> {{time}} </h2>
    </ion-content>
 ```
 
