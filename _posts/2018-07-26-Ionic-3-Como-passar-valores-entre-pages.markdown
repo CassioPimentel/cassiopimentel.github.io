@@ -72,6 +72,7 @@ E mostrar o time:
    </ion-content>
 ```
 
+
 # Demo
 
 ![](https://raw.githubusercontent.com/CassioPimentel/cassiopimentel.github.io/master/images/PassandoDadosEntrePages/girapp.gif)
