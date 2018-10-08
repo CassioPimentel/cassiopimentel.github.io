@@ -1,6 +1,6 @@
 ---
 title: "Pop-ups bonitos, responsivos e customizáveis em ASP.NET"
-date: "2018-02-18"
+date: "2018-10-08"
 description: "Neste post rápido irei dar uma dica para quem precisa mostrar mensagens estilo pop-up e precisa de algo mais personalizado e bonito."
 ---
 
